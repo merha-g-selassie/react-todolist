@@ -34,7 +34,7 @@ class App extends Component {
 
 removeById = (index) => {
     for (var i = 0; i < this.state.todos.length; i++) {
-      if(this.state.todos[i].index == index) {
+      if(parseInt(this.state.todos[i].index, 10) === parseInt(index, 10)) {
         this.state.todos.splice(i, 1);
       }
     }
