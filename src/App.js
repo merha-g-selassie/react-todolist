@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import AddTodo from './AddTodo';
+import './App.css';
+import Footer from './Footer';
 import Header from './Header';
 import TodoList from './TodoList';
-import AddTodo from './AddTodo';
-import Footer from './Footer';
-import './App.css';
 
 
 let i = 0;

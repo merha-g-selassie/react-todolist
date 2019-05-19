@@ -83,9 +83,6 @@ li:hover {
 }
 
 footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
    width: 100%;
    color: white;
    text-align: center;
@@ -93,6 +90,10 @@ footer {
 
 .form-group {
   margin-bottom: 0rem;
+}
+
+.icon{
+  opacity: 0
 }
 
 @keyframes App-logo-spin {
